@@ -1,0 +1,24 @@
+# ===================================================================
+# RED INTELIGENTE API - DEPENDENCIAS
+# ===================================================================
+
+# Framework principal
+fastapi>=0.110.0
+uvicorn[standard]>=0.25.0
+gunicorn>=21.2.0
+
+# Base de datos - PostgreSQL
+SQLAlchemy>=2.0.25
+psycopg2-binary>=2.9.9
+
+# Validación y schemas
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+email-validator>=2.1.0
+
+# Seguridad - Argon2 para hash de códigos
+passlib[argon2]>=1.7.4
+
+# Configuración
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
